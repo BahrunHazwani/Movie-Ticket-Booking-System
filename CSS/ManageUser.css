@@ -1,0 +1,128 @@
+        body
+        {
+           background: url(../images/movie-popcorn.jpg) no-repeat center center fixed;
+           background-size: cover;
+        }
+        table
+        {
+           font-family: Trebuchet MS, sans-serif;
+           font-size: 20px;
+           line-height: 1.6;
+           background-color:black;
+           opacity: 0.9; 
+           width: 80%; 
+           font-weight: 900;
+           padding: 50px; 
+           margin:50px;
+        }  
+        th
+        {
+            color:gold; 
+            background-color:brown;
+        } 
+        td 
+        {
+            color:black; 
+            background-color:#AF9B60;     
+        }
+
+       h1
+       {
+            color:white;
+            font-family: Trebuchet MS, sans-serif;
+            text-align:center;
+       }
+       div{margin-top: 0.5cm;} 
+       #remove
+       {
+            background-color: red;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            font-family: Trebuchet MS, sans-serif; 
+            margin: 4px 2px;
+            cursor: pointer; 
+            font-weight: bold; 
+            width:50%;  
+            cursor: pointer;
+            outline: none;
+            border-radius: 15px;
+       }
+
+       #remove:hover {background-color: gold}
+
+       #remove:active 
+       {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+       }
+
+       @charset"utf-8";
+
+/* HORIZONTAL MENU */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+font-family: "Lucida Console", "Courier New", monospace;
+    margin: auto;
+    max-width: 1000px;
+    justify-content: space-between;
+    text-align: center;
+}
+li {
+    padding:  1.15rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ebebeb;
+    min-width: 80px;
+    margin: auto;
+    font-family: "Lucida Console", "Courier New", monospace;
+    }
+    
+a   {
+text-decoration: none;
+}
+
+li:hover {
+  background-image: url(../images/jj.jpg);
+  background-size: 100% 100%;
+  color: #27262c;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 #ef816c;
+    font-weight: bold;
+}
+li:active {
+  transform: translateY(4px);
+}
+
+@keyframes spring {
+  15% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.2, 1.1);
+  }
+  40% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(0.95, 0.95);
+  }
+  75% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.05, 1);
+  }
+  100% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1, 1);
+  }
+}
+

@@ -1,0 +1,101 @@
+body
+        {
+           background: url(../images/updateuser.jpg) no-repeat center center fixed;
+           background-size: cover;
+        }
+
+        form
+        {
+           width: 30%;
+           margin: 100px auto;
+           padding: 30px;
+           background: linear-gradient(to right, #abbaab, #ffffff);
+           border: 1px solid;
+           border-color: #555;
+        }
+        table
+        {
+           font-family: Trebuchet MS, sans-serif;
+           font-size: 20px;
+           line-height: 1.6;
+           width: 50%; 
+           font-weight: 900;
+           padding: 80px; 
+           margin:8px;
+           background-color:#F2D7D5;
+           opacity: 0.9;
+        }   
+        td 
+        {
+            font-weight: bold;
+            color: #7B241C ;
+            font-family: Trebuchet MS, sans-serif;        
+        }
+        p
+        {
+            font-size:15px;
+            color:#D35400;
+            font-family: Trebuchet MS, sans-serif;
+        }
+
+       h2
+       {
+            color:white;font-family: Trebuchet MS, sans-serif;text-align:center;
+       }
+       div{margin-top: 0.5cm;} 
+       button
+       {
+            background-color: #E74C3C;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            font-family: Trebuchet MS, sans-serif; 
+            margin: 4px 2px;
+            cursor: pointer; 
+            font-weight: bold; 
+            width:95%;  
+            cursor: pointer;
+            outline: none;
+            border-radius: 15px;
+       }
+
+       button:hover {background-color: gold}
+
+       button:active 
+       {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+       }
+       #update
+       {
+            background-color: #1A5276;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            font-family: Trebuchet MS, sans-serif; 
+            margin: 4px 2px;
+            cursor: pointer; 
+            font-weight: bold; 
+            width:70%;  
+            cursor: pointer;
+            outline: none;
+            border-radius: 15px;
+       }
+
+       #update:hover {background-color: gold}
+
+       #update:active 
+       {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+       }
